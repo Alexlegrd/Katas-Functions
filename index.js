@@ -9,11 +9,12 @@ function add (num1, num2) {
     for (var i = 0; i<num1; i++ )
  {
    count = add(count,num2); 
-    
  }
  return(count);
  }
- 
+ multiply(3, 3)
+
+
  function power (x,n) {
  var exponent = 1;
  for (var i = 1; i<=n; i++ )
@@ -25,23 +26,25 @@ function add (num1, num2) {
  
  function factorial(x) {
  var fact = 1;
- for (var i = 1; i<=x; i++){
+ for (var i = 1; i<=x ; i++){
  fact = multiply(i,fact);
  }
  return(fact);
  }
+ factorial(5)
  
  function fibonacci (x){
  var One = 0;
  var Two = 1;
- var track = 0;
+ var three = 0;
  for ( var i=2; i<x; i++){
      track = add(One,Two);
      One = Two;
-     Two = track;
+     Two = three;
  }
- return(track);
+ return(three);
  }
 
 
 console.log("hello");
+
